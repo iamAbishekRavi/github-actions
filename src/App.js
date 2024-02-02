@@ -1,6 +1,7 @@
 import React from 'react'
-function App()
-{
-  return (<h1>hello<h1>);
-  }
-export default App;
+import ReactDOM from 'react-dom';
+function App(){
+ReactDOM.render(<div><h1>Hello Abishek</h1></div>,document.getElementById("root"));
+}
+
+export default App
